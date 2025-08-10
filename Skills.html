@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Aditya Seth</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+        <a href="index.html"><div class="logo">
+            Aditya <span>Seth</span>
+        </div>
+        </a>
+        <div class="nav-container">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html" class="active">Skills</a>
+                <a href="Education.html">Education</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html" class="active">Skills</a>
+                <a href="Education.html">Education</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills-section">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-duration="1000">My <span>Skills</span></h1>
+
+            <div class="skills-grid">
+
+                <!-- Skill Card 1 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Proficient in Python for data manipulation, analysis, and building data pipelines using Pandas
+                        and NumPy.</p>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="fa-brands fa-database"></i>
+                    <h3>ETL & Data Pipelines </h3>
+                    <p>Hands-on experience with ETL processes for preparing, transforming, and loading data for analytics and reporting.</p>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <i class="fa-brands fa-database"></i>
+                    <h3>Data Visualisation</h3>
+                    <p>Skilled in creating clear, interactive, and insightful data visualizations for decision-making.
+                    </p>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>PostgreSQL</h3>
+                    <p>Experienced in writing complex SQL queries, optimizing database performance, and managing
+                        relational data using PostgreSQL.</p>
+                </div>
+
+                <!-- Add more skill cards as needed -->
+                <!-- Skill Card 5 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h3>AWS</h3>
+                    <p>Familiar with AWS services like S3 and EC2 for cloud-based data storage and processing.</p>
+                </div>
+                <!-- Skill Card 5 -->
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h3>Snowflake</h3>
+                    <p>Skilled in managing cloud-based data warehouses, optimizing queries, and integrating data from multiple sources for analysis.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Aditya Seth | All Rights Reserved</p>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

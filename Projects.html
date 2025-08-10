@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Aditya Seth</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+        <a href="index.html">
+            <div class="logo">
+                Aditya <span>Seth</span>
+            </div>
+        </a>
+        <div class="nav-container">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Education.html">Education</a>
+                <a href="Projects.html" class="active">Projects</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Education.html">Education</a>
+                <a href="Projects.html" class="active">Projects</a>
+                <a href="Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects-section">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-duration="1000">My <span>Projects</span></h1>
+            <p class="coming-soon" data-aos="fade-up" data-aos-delay="200">
+                🚀 Coming Soon... Stay tuned for awesome projects!
+            </p>
+
+            <!-- Placeholder area -->
+            <div class="projects-placeholder" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-laptop-code"></i>
+                <p>Projects will appear here once added.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Aditya Seth | All Rights Reserved</p>
+    </footer>
+
+    <!-- ===== JS ===== -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

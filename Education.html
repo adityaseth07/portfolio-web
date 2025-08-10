@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Aditya Seth</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome (for icons, if needed) -->
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+        <a href="index.html">
+            <div class="logo">
+                Aditya <span>Seth</span>
+            </div>
+        </a>
+        <div class="nav-container">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Education.html" class="active">Education</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Education.html" class="active">Education</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="education-section">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-duration="1000">My <span>Education</span></h1>
+
+            <div class="education-grid">
+
+                <!-- Education Card 1 -->
+                <div class="education-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Bachelor of Technology (B.Tech) in Industrial and Prodution Engineering</h3>
+                    <p>NIT Jalandhar, 2025–2029</p>
+                </div>
+
+                <!-- Education Card 2 -->
+                <div class="education-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="fa-solid fa-school"></i>
+                    <h3>Senior Secondary (Class XII), Science</h3>
+                    <p>Summer Hill Convent School, 2022–2024</p>
+                    <p>Subjects: Mathematics, Physics, Chemistry, English, Physical Education</p>
+                </div>
+
+                <!-- Education Card 3 -->
+                <div class="education-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <i class="fa-solid fa-certificate"></i>
+                    <h3>Certifications & Courses</h3>
+                    <p>
+                        <a href="https://www.udemy.com/certificate/UC-ad433ad3-2ae3-4c1d-9f84-f79c227ac156/" target="_blank"
+                            rel="noopener noreferrer">
+                            "The Complete SQL Bootcamp: Go from Zero to Hero" by Udemy, 2025
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Aditya Seth | All Rights Reserved</p>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
